@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -32,10 +32,11 @@ address {
   font-weight: 700;
   font-size: 18px;
 
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-link {
@@ -166,10 +167,11 @@ address {
   font-weight: 700;
   font-size: 18px;
 
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
 }
 
 .text-footer {
