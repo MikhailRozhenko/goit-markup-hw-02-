@@ -1,7 +1,7 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -12,9 +12,23 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 /* header */
 
 .span-logo {
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo {
   font-weight: 700;
   font-size: 18px;
 
@@ -22,16 +36,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
 }
 
 .nav-link {
@@ -75,14 +79,13 @@ a {
   font-weight: 700;
   font-size: 56px;
 
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .main-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -90,6 +93,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-button:hover,
@@ -97,6 +101,13 @@ a {
   background-color: #404bbf;
 }
 /* section advantages */
+
+.headline-out {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
 .page {
   font-weight: 500;
@@ -117,6 +128,10 @@ a {
 
 /* section dream team */
 
+.list-item-team {
+  background-color: #fff;
+}
+
 .team-section {
   background-color: #f4f4fd;
 }
@@ -125,10 +140,11 @@ a {
   font-weight: 700;
   font-size: 36px;
 
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 /* footer */
@@ -136,14 +152,24 @@ a {
   background-color: #2e2f42;
 }
 
+.footer-span {
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
 
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .text-footer {
